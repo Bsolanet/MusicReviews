@@ -1,0 +1,15 @@
+.top-header[b-m7btg4xusx] {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-link[b-m7btg4xusx] {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+

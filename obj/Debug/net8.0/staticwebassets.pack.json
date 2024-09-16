@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\bauti\\Documents\\GitHub\\MusicReviews\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MusicReviews.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MusicReviews.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\bauti\\Documents\\GitHub\\MusicReviews\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\bauti\\Documents\\GitHub\\MusicReviews\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bauti\\Documents\\GitHub\\MusicReviews\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bauti\\Documents\\GitHub\\MusicReviews\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MusicReviews.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MusicReviews.props",
+      "PackagePath": "build\\MusicReviews.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MusicReviews.props",
+      "PackagePath": "buildMultiTargeting\\MusicReviews.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MusicReviews.props",
+      "PackagePath": "buildTransitive\\MusicReviews.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
