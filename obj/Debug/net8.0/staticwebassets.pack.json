@@ -1,24 +1,64 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\bauti\\Documents\\GitHub\\MusicReviews\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MusicReviews.bundle.scp.css",
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MusicReviews.bundle.scp.css",
       "PackagePath": "staticwebassets\\MusicReviews.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\bauti\\Documents\\GitHub\\MusicReviews\\wwwroot\\app.css",
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\bauti\\Documents\\GitHub\\MusicReviews\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\bauti\\Documents\\GitHub\\MusicReviews\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\bauti\\Documents\\GitHub\\MusicReviews\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\wwwroot\\images\\AF.png",
+      "PackagePath": "staticwebassets\\images\\AF.png"
+    },
+    {
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\wwwroot\\images\\Graduation.png",
+      "PackagePath": "staticwebassets\\images\\Graduation.png"
+    },
+    {
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\wwwroot\\images\\IU.png",
+      "PackagePath": "staticwebassets\\images\\IU.png"
+    },
+    {
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\wwwroot\\images\\MS.png",
+      "PackagePath": "staticwebassets\\images\\MS.png"
+    },
+    {
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\wwwroot\\images\\Rio.png",
+      "PackagePath": "staticwebassets\\images\\Rio.png"
+    },
+    {
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\wwwroot\\images\\Rumours.png",
+      "PackagePath": "staticwebassets\\images\\Rumours.png"
+    },
+    {
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\wwwroot\\images\\TCatS.png",
+      "PackagePath": "staticwebassets\\images\\TCatS.png"
+    },
+    {
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\wwwroot\\images\\TDSotM.png",
+      "PackagePath": "staticwebassets\\images\\TDSotM.png"
+    },
+    {
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\wwwroot\\images\\TOD.png",
+      "PackagePath": "staticwebassets\\images\\TOD.png"
+    },
+    {
+      "Id": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\wwwroot\\images\\brat.png",
+      "PackagePath": "staticwebassets\\images\\brat.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MusicReviews.Microsoft.AspNetCore.StaticWebAssets.props",

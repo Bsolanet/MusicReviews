@@ -1,22 +1,27 @@
-<header>
-    <div class="top-header">
-        <div class="logo">
-            <a href="">MusicReviews</a>
-        </div>
+@inherits LayoutComponentBase;
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="" class="nav-link">
-                        <span class="bi bi-house-door-fill-nav-menu" aria-hidden="false">Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="about" class="nav-link">
-                        <span class="" aria-hidden="false">About</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+<header class = "header">
+    <div class = "start">
+        <a href = "" class="logo">
+            <span>MusicReviews</span>
+        </a>
+
+        <NavLink href = "" class="nav-tab" Match="NavLinkMatch.All">
+            <div class="nav-text">Home</div>
+        </NavLink>
+        <NavLink href = "search" class="nav-tab">
+            <div class="nav-text">Search</div>
+        </NavLink>
+        <NavLink href = "genre" class="nav-tab">
+            <div class="nav-text">Genres</div>
+        </NavLink>
+        <NavLink href = "artist" class="nav-tab">
+            <div class="nav-text">Artists</div>
+        </NavLink>
+    </div>
+    <div class = "end">
+        <NavLink href = "login" class="nav-tab">
+            <div class="nav-text">Sign-in</div>
+        </NavLink>
     </div>
 </header>

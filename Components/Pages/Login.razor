@@ -1,0 +1,31 @@
+@page "/login"
+
+<div class="login">
+    @if(!register) {
+        <h1>Login</h1>
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        <button>Login</button>
+        <button @onClick="ToggleRegister">Don't have an account?</button>
+    } else {
+        <h1>Register</h1>
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        <button>Register</button>
+        <button @onClick="ToggleRegister">Already have an account?</button>
+    }
+</div>
+
+@code {
+    private bool register;
+
+    protected override void OnInitialized()
+    {
+        register = false;
+    }
+
+    private void ToggleRegister()
+    {
+        register = !register;
+    }
+}

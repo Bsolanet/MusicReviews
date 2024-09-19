@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bauti\\Documents\\GitHub\\MusicReviews\\MusicReviews.csproj",
+      "projectUniqueName": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\MusicReviews.csproj",
       "projectName": "MusicReviews",
-      "projectPath": "C:\\Users\\bauti\\Documents\\GitHub\\MusicReviews\\MusicReviews.csproj",
+      "projectPath": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\MusicReviews.csproj",
       "packagesPath": "C:\\Users\\bauti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bauti\\Documents\\GitHub\\MusicReviews\\obj\\",
+      "outputPath": "C:\\Users\\bauti\\OneDrive\\Documents\\GitHub\\MusicReviews\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bauti\\AppData\\Roaming\\NuGet\\NuGet.Config"

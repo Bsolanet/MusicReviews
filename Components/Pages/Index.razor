@@ -1,7 +1,39 @@
 @page "/"
+@using System.Text.Json;
+@using System.Text.Json.Serialization;
+@inject IHttpClientFactory ClientFactory;
 
-<h1>Home</h1>
+@if(loading)
+{
+    <p>Loading...</p>
+} else {
+    <div class="albums">
+    @foreach (var album in albums)
+    {
+        <AlbumCard image="@album.Image" title="@album.Title" artist="@album.Artist"/>
+    } 
+    </div>
+}
 
 @code {
+    private List<Album> albums = new List<Album>();
+    private bool loading = true;
+    protected override async Task OnInitializedAsync()
+    {
+       loading = true;
+       var client = ClientFactory.CreateClient();
+       client.BaseAddress = new Uri("http://localhost:4000/");
 
+       var response = await client.GetAsync("album");
+        if (response.IsSuccessStatusCode)
+        {
+            var content = await response.Content.ReadAsStringAsync();
+            try {
+                albums = JsonSerializer.Deserialize<List<Album>>(content);
+            } catch (Exception e) {
+                Console.WriteLine(e.Message);
+            }
+        }
+        loading = false;
+    }
 }

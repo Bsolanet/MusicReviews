@@ -1,19 +1,4 @@
 /* _content/MusicReviews/Components/Layout/HeaderLayout.razor.rz.scp.css */
-.top-header[b-m7btg4xusx] {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.nav-link[b-m7btg4xusx] {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
 /* _content/MusicReviews/Components/Layout/MainLayout.razor.rz.scp.css */
 .header[b-8axv2ta450] {
     background-color: #333;

@@ -1,0 +1,19 @@
+<div class = "album">
+    <img src="@image" alt="@title" class="album-cover" />
+    <div class="album-title">@title</div>
+    <div class="album-artist">@artist</div>
+</div>
+
+@code {
+    [Parameter]
+    public required string image { get; set; }
+    [Parameter]
+    public required string title { get; set; }
+    [Parameter]
+    public required string artist { get; set; }
+
+    protected override void OnInitialized()
+    {
+        image = "/images/" + image;
+    }
+}
