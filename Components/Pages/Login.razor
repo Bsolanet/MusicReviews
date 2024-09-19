@@ -3,16 +3,16 @@
 <div class="login">
     @if(!register) {
         <h1>Login</h1>
-        <input type="text" placeholder="Username" />
-        <input type="password" placeholder="Password" />
+        <input class="username" type="text" placeholder="Username" />
+        <input class="password" type="password" placeholder="Password" />
         <button>Login</button>
-        <button @onClick="ToggleRegister">Don't have an account?</button>
+        <button @onclick="ToggleRegister">Don't have an account?</button>
     } else {
         <h1>Register</h1>
-        <input type="text" placeholder="Username" />
-        <input type="password" placeholder="Password" />
+        <input class="username" type="text" placeholder="Username" />
+        <input class="password" type="password" placeholder="Password" />
         <button>Register</button>
-        <button @onClick="ToggleRegister">Already have an account?</button>
+        <button @onclick="ToggleRegister">Already have an account?</button>
     }
 </div>
 
@@ -27,5 +27,6 @@
     private void ToggleRegister()
     {
         register = !register;
+        Console.WriteLine(register);
     }
 }
