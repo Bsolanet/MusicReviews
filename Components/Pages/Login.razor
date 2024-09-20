@@ -1,23 +1,14 @@
 @page "/login"
 
 <div class="login">
-    @if(!register) {
-        <h1>Login</h1>
-        <input class="username" type="text" placeholder="Username" />
-        <input class="password" type="password" placeholder="Password" />
-        <button>Login</button>
-        <button @onclick="ToggleRegister">Don't have an account?</button>
-    } else {
-        <h1>Register</h1>
-        <input class="username" type="text" placeholder="Username" />
-        <input class="password" type="password" placeholder="Password" />
-        <button>Register</button>
-        <button @onclick="ToggleRegister">Already have an account?</button>
-    }
+    <EditForm Model="@user">
+
+    </EditForm>
 </div>
 
 @code {
     private bool register;
+    private User user;
 
     protected override void OnInitialized()
     {
